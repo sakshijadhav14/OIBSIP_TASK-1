@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+vietnam:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@900&display=swap");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+overflow-x: hidden;
+}
+html{
+    font-size: 13px;
+}
+body{
+    overflow: hidden;
+    background-color: #4169e1;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    transition: all .3s;
+    margin-left: 40px;
+}
+nav ul li a:hover, .cta:hover{
+    opacity: .6;
+}
+nav button, .header_main_content button{
+    padding: 8px 35px;
+    background-color: #4169e1;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0 5px 20px 0px rgba(0,0,0,0.3);
+    transition: all.3s;
+    cursor: pointer;
+}
+.cta2{
+    background-color: rgb(248, 46, 46);
+}
+.header_main{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+}
+.header_main_content_h1{
+    font-size: 63px;
+}
+.header_main_content.p{
+    margin-top: 10px;
+    font-size: 16px;
+    width: 50%;
+}
+.header_main_img_img{
+    margin-top: 50px;
+}
+.header_main_content button{
+    margin-top: 20px;
+    background-color: rgb(248, 46, 46);
+    margin-bottom: 30px;
+}
